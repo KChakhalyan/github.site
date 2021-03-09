@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="costom.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- start of top navbar -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
@@ -28,7 +30,10 @@
               Home
             </a>
             <a class="navbar-item" href="dashboard.html">
-              Dashboard
+              Bulma Dashboard
+            </a>
+            <a class="navbar-item" href="bootstrap-dashboard.html">
+              Bootstrap Dashboard
             </a>
       
             
@@ -72,5 +77,83 @@
         </div>
       </nav>
       <!-- End of navbar -->
+      <div class="columns">
+          <div class="column is-2">
+            <div class=" has-background-danger">
+                <aside class="menu">
+                    <p class="menu-label">General</p>
+                    <ul class="menu-list">
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Costomers</a></li>
+                    </ul>
+                </aside>
+              </div>
+          </div>
+          <div class="column is-10">
+            <div class="columns">
+                <div class="column">
+                    <table class="table">
+                        <thead>
+                            <h1>Emploee management</h1>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <th>Name</th>
+                                <th>Ocupation</th>
+                                <th>Project</th>
+                                <th>Condition</th>
+                            </tr>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>Web developer</td>
+                                <td><a href="#">github.page.com</a></td>
+                                <td>
+                                    <span class="tag is-success">Success</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Angela Yu</td>
+                                <td>Web developer</td>
+                                <td><a href="#">udemy.com</a></td>
+                                <td>
+                                    <span class="tag is-warning">Pending</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Steve Dansky</td>
+                                <td>Web Designer</td>
+                                <td><a href="#">Adobe XD Cours</a></td>
+                                <td>
+                                    <span class="tag is-info">Waiting...</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Antony Miles</td>
+                                <td>Back-End developer</td>
+                                <td><a href="#">fontawesom.com</a></td>
+                                <td>
+                                    <span class="tag is-danger">unfinished</span>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                        <tfoot>tfoot the optional bottom part of the table </tfoot>
+                    </table>
+                    
+                </div>
+                <div class="column"><div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ratione assumenda corporis voluptas molestias doloremque cumque tempore aliquam ipsa voluptatem.</div></div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <figure class="image is-128x128">
+                        <img src="https://bulma.io/images/placeholders/256x256.png">
+                      </figure>
+                </div>
+                <div class="column"><div class="card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab dolorem obcaecati in accusamus commodi vitae velit voluptas maiores vel enim?</div></div>
+            </div>
+          </div>
+      </div>
+      
 </body>
 </html>
