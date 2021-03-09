@@ -1,3 +1,18 @@
 .menu {
     height: 100vh;
 }
+
+.sidebar-custom {
+    height: 100vh;
+   
+}
+.list-group {
+    border-radius: 0;
+}
+.list-group-item {
+    border: none;
+   
+}
+.col-sm-2 {
+    padding-right: 0 ;
+}
